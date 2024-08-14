@@ -16,7 +16,7 @@
 - [Contact](#contact)
 
 # Background
-Automating the long-term demand forecast at a SKU/basename level using historical trends in customer behaviors. Solution provides three methods: exponential smoothing, gradient-descent based regressions and vector similarity to predict the percentage of demand on each SKU (per program family and customer) for a future quarter. Currently, the primary method is exponential smoothing. The other two methods are in an exploratory phase.  
+Automating the long-term demand forecast at a SKU/basename level using historical trends in customer behaviors. Solution provides three methods: exponential smoothing, gradient-descent based regressions and vector similarity to predict the percentage of demand on each SKU (per program family and customer) for a future quarter.  
 
 # Setup
 The goal is utilize this forecast tool for cq+2 onwards, where cq is the current quarter. The forecast for cq and cq+1 is to computed differently. A demand analyst would provide the total demand for for a program family in cq+2 and the tool would disaggregate this demand across all SKUs in the program family using the forecasting methods described below.
